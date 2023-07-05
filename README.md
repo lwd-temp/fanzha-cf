@@ -1,5 +1,5 @@
 # fanzha-cf
-Not official.
+Not official. This is a fan-made product and for jokes only.
 
 非官方/同人作品，Cloudflare反诈提示页。
 

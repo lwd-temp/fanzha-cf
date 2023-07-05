@@ -1,4 +1,5 @@
-html, body{
+html,
+body {
     padding: 0;
     margin: 0;
 }
@@ -8,31 +9,31 @@ html, body{
     margin: 0;
 }
 
-body{
+body {
     font-family: 'Microsoft YaHei';
     opacity: 0;
     transition: opacity 1s;
 }
 
-.header{
+.header {
     min-width: 1600px;
     max-width: 1920px;
     margin: 0 auto;
     padding: 5px 0;
-    box-shadow: 0 2px 2px rgba(0,0,0,.4);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .4);
     position: relative;
     z-index: 99;
-	text-align:center;
+    text-align: center;
 }
 
-.header img{
+.header img {
     height: 86px;
     width: auto;
     vertical-align: middle;
 }
 
 
-.content{
+.content {
     background: linear-gradient(to bottom, #69a1e6, #215b9e);
     height: calc(100vh - 96px - 280px);
     text-align: center;
@@ -41,7 +42,7 @@ body{
     min-width: 1600px;
 }
 
-.content .main{
+.content .main {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -49,51 +50,51 @@ body{
     width: 100%;
 }
 
-.content img{
+.content img {
     height: 280px;
     width: 350px;
     vertical-align: middle;
 }
 
-.content .txxx{
+.content .txxx {
     color: #fff;
     font-size: 40px;
     letter-spacing: 4px;
     margin-top: 15px;
-    text-shadow: 0 2px 2px rgba(0,0,0,.5);
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .5);
 }
 
-.content .fxtx{
+.content .fxtx {
     line-height: 55px;
     font-size: 30px;
     margin-top: 25px;
     display: inline-block;
     letter-spacing: 5px;
-    background: rgba(255, 255, 255,.5);
+    background: rgba(255, 255, 255, .5);
     padding: 12px 40px;
     border-radius: 12px;
 }
 
-.content .fxtx span{
+.content .fxtx span {
     color: #f00;
     font-size: 42px;
 }
 
-.content .phone{
+.content .phone {
     font-size: 24px;
     margin-top: 10px;
     color: #fff;
 }
 
-.content .line{
+.content .line {
     margin: 0 auto;
     width: 1000px;
     margin-top: 25px;
     height: 2px;
-    background: linear-gradient(to right, rgba(255,255,255,.1),rgba(255,255,255,1), rgba(255,255,255,.1));
+    background: linear-gradient(to right, rgba(255, 255, 255, .1), rgba(255, 255, 255, 1), rgba(255, 255, 255, .1));
 }
 
-.footer{
+.footer {
     min-width: 1600px;
     font-size: 20px;
     height: 270px;
@@ -102,31 +103,34 @@ body{
     padding-top: 10px;
 }
 
-.footer .ewm{
+.footer .ewm {
     width: 120px;
     height: 120px;
     margin: 10px 20px 0;
     padding-bottom: 20px;
 }
 
-.footer .gzh, .footer .app-ewm .title {
+.footer .gzh,
+.footer .app-ewm .title {
     padding-bottom: 2px;
 }
 
-.footer .gzh, .footer .app-ewm {
+.footer .gzh,
+.footer .app-ewm {
     display: inline-block;
     padding: 0 20px;
     position: relative;
 }
- .footer .app-ewm {
+
+.footer .app-ewm {
     padding-bottom: 20px;
 }
 
-.footer .gzh{
+.footer .gzh {
     margin-left: 30px;
 }
 
-.footer .gzh:before{
+.footer .gzh:before {
     content: ' ';
     display: block;
     position: absolute;
@@ -134,19 +138,19 @@ body{
     height: 120px;
     top: 37px;
     left: -20px;
-    background: rgba(0, 0, 0,.4);
+    background: rgba(0, 0, 0, .4);
 }
 
-.footer .register{
+.footer .register {
     padding-top: 10px;
     font-size: 14px;
     margin-top: 20px;
-    border-top: 1px solid rgba(0, 0, 0,.4);
+    border-top: 1px solid rgba(0, 0, 0, .4);
     line-height: 20px;
-    color: rgba(0,0,0,.7);
+    color: rgba(0, 0, 0, .7);
 }
 
-.footer .inline-block{
+.footer .inline-block {
     display: inline-block;
     position: relative;
 }
@@ -158,20 +162,20 @@ body{
     transform: translateX(-50%);
 }
 
-.footer a{
+.footer a {
     text-decoration: none;
-    color: rgba(0,0,0,.7);
+    color: rgba(0, 0, 0, .7);
 }
 
-.footer a:hover{
+.footer a:hover {
     color: #0079ff;
 }
 
-.footer .app-btn{
+.footer .app-btn {
     width: 280px;
     height: 44px;
     font-size: 24px;
-    color: rgba(255, 255, 255,.85);
+    color: rgba(255, 255, 255, .85);
     margin-top: 20px;
     border-radius: 6px;
     /* display: flex; */
@@ -182,17 +186,18 @@ body{
     cursor: pointer;
 }
 
-.footer .app-btn :hover{
+.footer .app-btn :hover {
     opacity: .8;
 }
-.footer .app-btn img{
+
+.footer .app-btn img {
     width: 32px;
     margin-right: 10px;
     vertical-align: middle;
     display: inline-block;
 }
 
-.footer .app-btn span{
+.footer .app-btn span {
     display: inline-block;
     margin-top: 9px;
 }

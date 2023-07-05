@@ -1,4 +1,4 @@
-$(function (){	
+$(function () {
     function doSuit(el, pageWidth, pageHeight) {
         var h = pageHeight
         var w = pageWidth
@@ -8,7 +8,7 @@ $(function (){
         // el.style.overflow = 'hidden'
         // el.style.transform = `scale(${iw / w},${ih / h})`
     }
-	
+
     function autoSuit(el, pageWidth, pageHeight) {
         // doSuit(el, pageWidth, pageHeight)
 
@@ -17,7 +17,7 @@ $(function (){
         // })
     }
 
-    if(window.innerWidth < 1600){
+    if (window.innerWidth < 1600) {
         // autoSuit(document.body, 1600, 900)
     }
 
@@ -27,11 +27,11 @@ $(function (){
 
 })
 
-function getQueryString(name){ 
-     var reg  = new   RegExp("(^|&)" + name + "=([^&]*)(&|$)"); 
-     var r  =  window.location.search.substr(1).match(reg); 
-     if(r!=null){
-		return  r[2]; 
-	 }  
-	 return ''; 
+function getQueryString(name) {
+    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+    var r = window.location.search.substr(1).match(reg);
+    if (r != null) {
+        return r[2];
+    }
+    return '';
 }
